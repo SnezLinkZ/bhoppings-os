@@ -2,19 +2,15 @@
   "version": 2,
   "builds": [
     {
-      "src": "package.json",
-      "use": "@vercel/node",
-      "config": {
-        "includeFiles": ["public/**/*", "src/**/*"]
-      }
+      "src": "server.js",
+      "use": "@vercel/node"
     }
   ],
   "routes": [
     {
       "src": "/(.*)",
-      "dest": "/public/index.html"
+      "dest": "/server.js"
     }
   ],
-  "buildCommand": "npm install && npm run build",
-  "outputDirectory": "public"
+  "buildCommand": "npm install && npm run build"
 }
