@@ -1,1 +1,43 @@
+# Node modules
 node_modules/
+
+# Logs
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# Environment variables
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Build output
+/public/dist/
+/build/
+/dist/
+
+# Source maps (optional, if you don't want to commit)
+*.map
+
+# IDE / Editor
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+
+# Temporary files
+*.tmp
+*.swp
+*.lock
+
+# Optional: Mac/Linux swap files
+*.DS_Store
+*.AppleDouble
+*~

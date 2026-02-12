@@ -1,0 +1,7 @@
+{
+  "version": 3,
+  "sources": ["../../../src/components/WindowManager.jsx"],
+  "sourcesContent": ["// WindowManager.jsx\r\nimport \"./WindowManager.scss\";\r\n\r\nexport default function WindowManager() {\r\n  return <div className=\"window-manager\">\u2026</div>;\r\n}\r\n"],
+  "mappings": "AAIS;AAHT,OAAO;AAEQ,SAAR,gBAAiC;AACtC,SAAO,oBAAC,SAAI,WAAU,kBAAiB,oBAAC;AAC1C;",
+  "names": []
+}
