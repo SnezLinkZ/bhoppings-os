@@ -20,21 +20,17 @@ function findFiles(dir, files = []) {
 const entries = findFiles(SRC);
 
 build({
-  entryPoints: entries,
-  outbase: SRC,
-  outdir: OUT,
-  bundle: true,           // ← bundle everything including React
-  format: "esm",
+  entryPoints: ["src/main.jsx"], // only the main entry
+  bundle: true,                  // bundle all imports (App, WindowManager, etc.)
+  outdir: "public/dist",
+  format: "esm",                 // ES modules for the browser
   sourcemap: true,
   target: "es2020",
   jsx: "automatic",
   loader: {
     ".js": "js",
     ".jsx": "jsx",
-    ".scss": "css",       // ← compile SCSS to CSS
+    ".scss": "css"               // compile SCSS to CSS
   },
 }).then(() => console.log("✅ Build complete"))
-  .catch((err) => {
-    console.error(err);
-    process.exit(1);
-  });
+  .catch((err) => { console.error(err); process.exit(1); });
