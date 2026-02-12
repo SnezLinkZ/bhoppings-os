@@ -8,6 +8,7 @@
   "main": "server.js",
   "scripts": {
     "build": "node build.js",
+    "vercel-build": "node build.js",
     "start": "node server.js",
     "watch": "npm-watch"
   },
