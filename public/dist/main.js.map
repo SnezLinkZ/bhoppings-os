@@ -1,0 +1,7 @@
+{
+  "version": 3,
+  "sources": ["../../src/main.jsx"],
+  "sourcesContent": ["import React from \"react\";\r\nimport { createRoot } from \"react-dom/client\";\r\nimport App from \"./App.jsx\";\r\nimport \"../style.css\";\r\n\r\ncreateRoot(document.getElementById(\"app\")).render(<App />);"],
+  "mappings": ";;;;AAKkD;AALlD,OAAO,WAAW;AAClB,SAAS,kBAAkB;AAC3B,OAAO,SAAS;AAChB,OAAO;AAHP;AAAA;AAKA,eAAW,SAAS,eAAe,KAAK,CAAC,EAAE,OAAO,oBAAC,OAAI,CAAE;AAAA;AAAA;",
+  "names": []
+}

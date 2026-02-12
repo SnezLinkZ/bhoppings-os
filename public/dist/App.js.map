@@ -1,0 +1,7 @@
+{
+  "version": 3,
+  "sources": ["../../src/App.jsx"],
+  "sourcesContent": ["import { useState } from \"react\";\r\nimport Navbar from \"./Navbar.jsx\";\r\nimport Home from \"./pages/Home.jsx\";\r\nimport About from \"./pages/About.jsx\";\r\nimport Projects from \"./pages/Projects.jsx\";\r\n\r\nexport default function App() {\r\n    const [page, setPage] = useState(\"home\");\r\n\r\n    let CurrentPage;\r\n    if (page === \"home\") CurrentPage = Home;\r\n    else if (page === \"about\") CurrentPage = About;\r\n    else CurrentPage = Projects;\r\n\r\n    return (\r\n        <>\r\n            <Navbar navigate={setPage} />\r\n            <main>\r\n                <CurrentPage />\r\n            </main>\r\n        </>\r\n    );\r\n}"],
+  "mappings": "AAeQ,mBACI,KADJ;AAfR,SAAS,gBAAgB;AACzB,OAAO,YAAY;AACnB,OAAO,UAAU;AACjB,OAAO,WAAW;AAClB,OAAO,cAAc;AAEN,SAAR,MAAuB;AAC1B,QAAM,CAAC,MAAM,OAAO,IAAI,SAAS,MAAM;AAEvC,MAAI;AACJ,MAAI,SAAS,OAAQ,eAAc;AAAA,WAC1B,SAAS,QAAS,eAAc;AAAA,MACpC,eAAc;AAEnB,SACI,iCACI;AAAA,wBAAC,UAAO,UAAU,SAAS;AAAA,IAC3B,oBAAC,UACG,8BAAC,eAAY,GACjB;AAAA,KACJ;AAER;",
+  "names": []
+}

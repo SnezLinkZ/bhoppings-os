@@ -1,0 +1,7 @@
+{
+  "version": 3,
+  "sources": ["../../../src/pages/About.jsx"],
+  "sourcesContent": ["export default function About() {\r\n    return <h1>About Page</h1>;\r\n}"],
+  "mappings": "AACW;AADI,SAAR,QAAyB;AAC5B,SAAO,oBAAC,QAAG,wBAAU;AACzB;",
+  "names": []
+}

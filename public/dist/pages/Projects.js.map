@@ -1,0 +1,7 @@
+{
+  "version": 3,
+  "sources": ["../../../src/pages/Projects.jsx"],
+  "sourcesContent": ["export default function Projects() {\r\n    return <h1>Projects Page</h1>;\r\n}"],
+  "mappings": "AACW;AADI,SAAR,WAA4B;AAC/B,SAAO,oBAAC,QAAG,2BAAa;AAC5B;",
+  "names": []
+}

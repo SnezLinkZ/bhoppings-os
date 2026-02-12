@@ -1,0 +1,7 @@
+{
+  "version": 3,
+  "sources": ["../../../src/pages/Home.jsx"],
+  "sourcesContent": ["export default function Home() {\r\n    return <h1>Home Page</h1>;\r\n}"],
+  "mappings": "AACW;AADI,SAAR,OAAwB;AAC3B,SAAO,oBAAC,QAAG,uBAAS;AACxB;",
+  "names": []
+}
